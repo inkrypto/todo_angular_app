@@ -1,0 +1,16 @@
+<h1>All the interesting people are dead</h1>
+
+<div ng-app="app">
+  {{ 1 + 1 + 1}}
+
+  <div ng-controller="peopleCtrl">
+
+    <div ng-repeat="person in people">
+      <ul>
+        <li>{{ person.name }}</li>
+        <li>{{ person.details }}</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
